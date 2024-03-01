@@ -8,13 +8,13 @@ export type Task = {
 }
 
 export class ToDoList {
-    private tasks: Task[] = []
+  private tasks: Task[] = []
 
-    add(task: Task) {
-        this.tasks.push(task)
-    }
+  add (task: Task) {
+    this.tasks.push(task)
+  }
 
-    getTasks(){
-        return this.tasks
-    }
+  getTasks () {
+    return this.tasks
+  }
 }
